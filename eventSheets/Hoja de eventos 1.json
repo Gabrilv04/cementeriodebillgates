@@ -73,9 +73,9 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 419472540853022,
+					"sid": 597752844257679,
 					"parameters": {
-						"seconds": "7"
+						"seconds": "5.5"
 					}
 				},
 				{
@@ -122,6 +122,60 @@
 				}
 			],
 			"sid": 853490899847552
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "EntradaDeTexto",
+					"sid": 672112833844258,
+					"parameters": {
+						"text": "\"RAM\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Texto9",
+					"sid": 991924658635453
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto10",
+					"sid": 723822066495337,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite5",
+					"sid": 129645719607127,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 732765203317785,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 831602760995195,
+					"parameters": {
+						"layout": "Escena 2"
+					}
+				}
+			],
+			"sid": 715269396673392
 		}
 	],
 	"sid": 782185128458143

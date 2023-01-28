@@ -1,5 +1,5 @@
 {
-	"name": "Escena 1",
+	"name": "Escena 2",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite",
+					"type": "Sprite6",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15,14 +15,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 2,
+					"uid": 20,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 425,
-						"y": 241,
-						"width": 897,
-						"height": 482,
+						"x": 426.5,
+						"y": 239.5,
+						"width": 855,
+						"height": 485,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -36,7 +36,7 @@
 					}
 				},
 				{
-					"type": "Sprite2",
+					"type": "Sprite7",
 					"properties": {
 						"initially-visible": false,
 						"initial-animation": "Animation 1",
@@ -44,7 +44,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 3,
+					"uid": 21,
 					"instanceVariables": {},
 					"behaviors": {
 						"Sólido": {
@@ -55,9 +55,9 @@
 						}
 					},
 					"world": {
-						"x": 440,
+						"x": 432,
 						"y": 550,
-						"width": 895,
+						"width": 860,
 						"height": 158,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -72,7 +72,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "Sprite8",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -80,14 +80,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 4,
+					"uid": 22,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 508,
-						"y": 385,
-						"width": 200,
-						"height": 202,
+						"x": 593,
+						"y": 386,
+						"width": 194,
+						"height": 184,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -101,9 +101,9 @@
 					}
 				},
 				{
-					"type": "Texto6",
+					"type": "Texto11",
 					"properties": {
-						"text": "Hola David, soy Demill Gates el guardián de este cementerio, seguramente te estarás preguntando que haces aquí.   ",
+						"text": "Vamos a por la siguiente pregunta, a ver si te vas de una vez...",
 						"enable-bbcode": true,
 						"font": "Jokerman",
 						"size": 14,
@@ -111,26 +111,26 @@
 						"bold": false,
 						"italic": false,
 						"color": [
-							0.9803921568627451,
-							0.9803921568627451,
-							0.9803921568627451,
+							1,
+							1,
+							1,
 							1
 						],
-						"horizontal-alignment": "left",
+						"horizontal-alignment": "center",
 						"vertical-alignment": "top",
 						"wrapping": "word",
 						"initially-visible": true,
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 12,
+					"uid": 23,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 178,
-						"y": 184,
-						"width": 293.6685758648097,
-						"height": 132.4997458311892,
+						"x": 211,
+						"y": 199,
+						"width": 380,
+						"height": 59,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -139,14 +139,14 @@
 							1,
 							1
 						],
-						"angle": 0.01616020925570366,
+						"angle": 0,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "Texto7",
+					"type": "Texto12",
 					"properties": {
-						"text": "Estas aquí para demostrar que eres un verdadero informático, a medida que vayas respondiendo mis preguntas podrás avanzar por el cementerio hasta salir de el, logrando tu libertad.",
+						"text": "Que ya tengo ganas de irme a dormir...",
 						"enable-bbcode": true,
 						"font": "Jokerman",
 						"size": 14,
@@ -166,14 +166,14 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 14,
+					"uid": 24,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 172,
-						"y": 161,
-						"width": 387,
-						"height": 170,
+						"x": 228,
+						"y": 210,
+						"width": 357,
+						"height": 58,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -187,53 +187,10 @@
 					}
 				},
 				{
-					"type": "Texto8",
+					"type": "Texto13",
 					"properties": {
-						"text": "\nAsí que acabemos rápido con esto.",
-						"enable-bbcode": true,
-						"font": "Jokerman",
-						"size": 14,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 15,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 179,
-						"y": 186,
-						"width": 356,
-						"height": 74,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Texto9",
-					"properties": {
-						"text": "¿Cual es la memoria que almacena de forma temporal los datos?",
-						"enable-bbcode": true,
+						"text": "¿Qué licencia permite modificar el contenido de una obra?",
+						"enable-bbcode": false,
 						"font": "Jokerman",
 						"size": 14,
 						"line-height": 0,
@@ -252,14 +209,14 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 16,
+					"uid": 25,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 121,
-						"y": 167,
-						"width": 482,
-						"height": 95,
+						"x": 215,
+						"y": 200,
+						"width": 351,
+						"height": 50,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -273,7 +230,7 @@
 					}
 				},
 				{
-					"type": "EntradaDeTexto",
+					"type": "EntradaDeTexto2",
 					"properties": {
 						"text": "",
 						"placeholder": "",
@@ -287,14 +244,14 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 17,
+					"uid": 26,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 275,
-						"y": 241,
-						"width": 145,
-						"height": 33,
+						"x": 306,
+						"y": 255,
+						"width": 162,
+						"height": 28,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -304,81 +261,9 @@
 							1
 						]
 					}
-				},
-				{
-					"type": "Texto10",
-					"properties": {
-						"text": "Bah, esta era muy fácil... Vayamos a la siguiente.",
-						"enable-bbcode": true,
-						"font": "Jokerman",
-						"size": 14,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 18,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 189,
-						"y": 177,
-						"width": 323,
-						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite5",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 19,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 508,
-						"y": 385.5,
-						"width": 192,
-						"height": 204,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
-			"sid": 351039373577177,
+			"sid": 861574718921818,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -407,7 +292,7 @@
 			"global": false
 		}
 	],
-	"sid": 690253314791992,
+	"sid": 465532152990522,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -416,5 +301,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 1"
+	"eventSheet": "Hoja de eventos 3"
 }

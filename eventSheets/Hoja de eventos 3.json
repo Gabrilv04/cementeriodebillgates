@@ -1,0 +1,64 @@
+{
+	"name": "Hoja de eventos 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 140835893575215,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Texto11",
+					"sid": 637973230030416
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto12",
+					"sid": 223376976439821,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 166010893389229,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Texto12",
+					"sid": 785632564488439
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto13",
+					"sid": 921127222094239,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "EntradaDeTexto2",
+					"sid": 274237797337551,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 447486999081922
+		}
+	],
+	"sid": 954299941078621
+}
