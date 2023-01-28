@@ -43,6 +43,85 @@
 				}
 			],
 			"sid": 695687266087917
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 985297853514468,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Texto6",
+					"sid": 796043952119058
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto7",
+					"sid": 528707723280142,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 419472540853022,
+					"parameters": {
+						"seconds": "7"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Texto7",
+					"sid": 504444769633697
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto8",
+					"sid": 283900393167336,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 824264266621579,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Texto8",
+					"sid": 732435636446284
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto9",
+					"sid": 683486506089606,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "EntradaDeTexto",
+					"sid": 283316764349947,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 853490899847552
 		}
 	],
 	"sid": 782185128458143
