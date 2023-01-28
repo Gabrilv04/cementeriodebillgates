@@ -43,6 +43,131 @@
 				}
 			],
 			"sid": 497943747875223
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 467856461741505,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Texto15",
+					"sid": 750502283986871
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto16",
+					"sid": 558807139474178,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "EntradaDeTexto3",
+					"sid": 241458974156966,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 313107192518073
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "EntradaDeTexto3",
+					"sid": 612082311149913,
+					"parameters": {
+						"text": "\"1\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Texto16",
+					"sid": 259699093707532
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EntradaDeTexto3",
+					"sid": 803801365898311
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite14",
+					"sid": 924103136583681,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto17",
+					"sid": 967606797861426,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 449704185019542,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Texto17",
+					"sid": 182834624121940
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite15",
+					"sid": 256835820756589,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto18",
+					"sid": 786511032152245,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 591713961197598,
+					"parameters": {
+						"seconds": "3.5"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 238814034078030,
+					"parameters": {
+						"layout": "pantalla final"
+					}
+				}
+			],
+			"sid": 996855153712435
 		}
 	],
 	"sid": 753805808631927

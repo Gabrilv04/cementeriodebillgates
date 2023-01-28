@@ -90,7 +90,14 @@
 			"Texto14",
 			"Sprite11",
 			"Sprite12",
-			"Sprite13"
+			"Sprite13",
+			"Texto15",
+			"Texto16",
+			"EntradaDeTexto3",
+			"Sprite14",
+			"Texto17",
+			"Texto18",
+			"Sprite15"
 		],
 		"subfolders": []
 	},
@@ -105,7 +112,8 @@
 			"menu",
 			"Escena 1",
 			"Escena 2",
-			"Escena 3"
+			"Escena 3",
+			"pantalla final"
 		],
 		"subfolders": []
 	},
@@ -114,7 +122,8 @@
 			"Hoja de eventos 1",
 			"Hoja de eventos 2",
 			"Hoja de eventos 3",
-			"Hoja de eventos 4"
+			"Hoja de eventos 4",
+			"Hoja de eventos 5"
 		],
 		"subfolders": []
 	},
