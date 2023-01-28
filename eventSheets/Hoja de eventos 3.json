@@ -5,6 +5,49 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 914968551900122
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 432888874392200
+				}
+			],
+			"sid": 219370446122177
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 567280508857579
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 793312842258778,
+					"parameters": {
+						"audio-file": "Forgotten Lullaby Intro",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 995889859359004
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-key-pressed",
 					"objectClass": "Teclado",
 					"sid": 140835893575215,
@@ -58,6 +101,65 @@
 				}
 			],
 			"sid": 447486999081922
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "EntradaDeTexto2",
+					"sid": 344146116103103,
+					"parameters": {
+						"text": "\"creative commons\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Texto13",
+					"sid": 439151040316148
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EntradaDeTexto2",
+					"sid": 255881452712196
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto14",
+					"sid": 102969943789130,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite10",
+					"sid": 319804684368835,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 238575044369749,
+					"parameters": {
+						"seconds": "4.5"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 470961012453448,
+					"parameters": {
+						"layout": "Escena 3"
+					}
+				}
+			],
+			"sid": 400347080166252
 		}
 	],
 	"sid": 954299941078621

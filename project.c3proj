@@ -84,7 +84,13 @@
 			"Texto11",
 			"Texto12",
 			"Texto13",
-			"EntradaDeTexto2"
+			"EntradaDeTexto2",
+			"Sprite9",
+			"Sprite10",
+			"Texto14",
+			"Sprite11",
+			"Sprite12",
+			"Sprite13"
 		],
 		"subfolders": []
 	},
@@ -98,7 +104,8 @@
 		"items": [
 			"menu",
 			"Escena 1",
-			"Escena 2"
+			"Escena 2",
+			"Escena 3"
 		],
 		"subfolders": []
 	},
@@ -106,7 +113,8 @@
 		"items": [
 			"Hoja de eventos 1",
 			"Hoja de eventos 2",
-			"Hoja de eventos 3"
+			"Hoja de eventos 3",
+			"Hoja de eventos 4"
 		],
 		"subfolders": []
 	},
@@ -133,6 +141,22 @@
 					"name": "DarkWinds.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 346640358492243,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Forgotten Lullaby Intro.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 985321097963648,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "creepy_lullaby.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 253255504704540,
 					"file-info": {
 						"purpose": "none"
 					}
