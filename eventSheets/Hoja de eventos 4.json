@@ -58,6 +58,14 @@
 			],
 			"actions": [
 				{
+					"id": "set-visible",
+					"objectClass": "Texto15",
+					"sid": 711452841538606,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
 					"id": "destroy",
 					"objectClass": "Texto15",
 					"sid": 750502283986871
@@ -73,9 +81,9 @@
 				{
 					"id": "set-visible",
 					"objectClass": "EntradaDeTexto3",
-					"sid": 241458974156966,
+					"sid": 125887714653038,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "visible"
 					}
 				}
 			],
@@ -87,9 +95,9 @@
 				{
 					"id": "compare-text",
 					"objectClass": "EntradaDeTexto3",
-					"sid": 612082311149913,
+					"sid": 981584984380712,
 					"parameters": {
-						"text": "\"1\"",
+						"text": "\"3\"",
 						"case": "case-insensitive"
 					}
 				}

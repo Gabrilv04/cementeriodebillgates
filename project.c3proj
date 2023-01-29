@@ -97,7 +97,13 @@
 			"Sprite14",
 			"Texto17",
 			"Texto18",
-			"Sprite15"
+			"Sprite15",
+			"Texto19",
+			"Sprite16",
+			"Sprite17",
+			"Texto20",
+			"Botón2",
+			"Texto21"
 		],
 		"subfolders": []
 	},
@@ -166,6 +172,14 @@
 					"name": "creepy_lullaby.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 253255504704540,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "fato_shadow_-_breathe_with_me.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 763462266519366,
 					"file-info": {
 						"purpose": "none"
 					}

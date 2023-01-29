@@ -1,5 +1,70 @@
 {
 	"name": "Hoja de eventos 5",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 982301994284065
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 100737162402488
+				}
+			],
+			"sid": 403803975279256
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 724147460504322
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 134452202670628,
+					"parameters": {
+						"audio-file": "fato_shadow_-_breathe_with_me",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 125496197156009
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón2",
+					"sid": 194443855655929
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 307833153511667,
+					"parameters": {
+						"layout": "menu"
+					}
+				}
+			],
+			"sid": 332154823575033
+		}
+	],
 	"sid": 280418674508728
 }
